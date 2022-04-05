@@ -1,0 +1,216 @@
+Index: Test/text.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Test/text.txt b/Test/text.txt
+new file mode 100644
+--- /dev/null	(date 1648885910428)
++++ b/Test/text.txt	(date 1648885910428)
+@@ -0,0 +1,2 @@
++Grean Blue 
++Yellow 
+\ No newline at end of file
+Index: Lesson_4/Task_43.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_4/Task_43.py b/Lesson_4/Task_43.py
+new file mode 100644
+--- /dev/null	(date 1649013235907)
++++ b/Lesson_4/Task_43.py	(date 1649013235907)
+@@ -0,0 +1,10 @@
++# 43.	Найти произведение пар чисел в списке. Парой считаем первый и последний элемент, второй и предпоследний и т.д.
++# Пример: [2, 3, 4, 5, 6] => [12, 15, 16];
++# 44.	 [2, 3, 5, 6] => [12, 15]
++list_of_numbers = [2, 3, 4, 5, 6]
++#product_of_numbers = [list_of_numbers[i] * list_of_numbers[len(list_of_numbers) - 1 -i] for i in range(len(list_of_numbers) // 2)]
++product_of_numbers = []
++length = len(list_of_numbers) // 2 if len(list_of_numbers) % 2 == 0 else len(list_of_numbers) // 2 + 1
++for i in range(length):
++    product_of_numbers.append(list_of_numbers[i] * list_of_numbers[len(list_of_numbers) - 1 -i])
++print(product_of_numbers)
+\ No newline at end of file
+Index: Lesson_4/Task_48.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_4/Task_48.py b/Lesson_4/Task_48.py
+new file mode 100644
+--- /dev/null	(date 1648951087640)
++++ b/Lesson_4/Task_48.py	(date 1648951087640)
+@@ -0,0 +1,23 @@
++# 48.	Найти корни квадратного уравнения Ax² + Bx + C = 0
++# a.	Математикой
++# b.	Используя дополнительные библиотеки*
++import math
++
++print("Введите коэффициенты для уравнения")
++print("ax^2 + bx + c = 0:")
++a = float(input("a = "))
++b = float(input("b = "))
++c = float(input("c = "))
++
++discr = b ** 2 - 4 * a * c
++print("Дискриминант D = %.2f" % discr)
++
++if discr > 0:
++    x1 = (-b + math.sqrt(discr)) / (2 * a)
++    x2 = (-b - math.sqrt(discr)) / (2 * a)
++    print("x1 = %.2f \nx2 = %.2f" % (x1, x2))
++elif discr == 0:
++    x = -b / (2 * a)
++    print("x = %.2f" % x)
++else:
++    print("Корней нет")
+\ No newline at end of file
+Index: Test/working_with_files.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Test/working_with_files.py b/Test/working_with_files.py
+new file mode 100644
+--- /dev/null	(date 1648885863014)
++++ b/Test/working_with_files.py	(date 1648885863014)
+@@ -0,0 +1,66 @@
++colors = ['Grean', 'Blue', '\nYellow']
++data = open('text.txt', 'w')
++for i in colors:
++    data.write(i)
++    data.write(' ')
++data.close()
++path = 'text.txt'
++
++with open(path,'r') as data:
++    for i in data:
++        print(i)
++#
++# def new_string(symbol, count = 3):
++#     return symbol * count
++# print(new_string(5))
++#
++# def continio(*params):
++#     res: str = ''
++#     for i in params:
++#         res += i
++#     return res
++# print(continio('rew ', '558 ', 'erfw ', 'ewrfew '))
++
++# a = [1, 2, 5, 6, 8]
++# c = tuple(a)
++# print(a)
++# print(c)
++#
++# a[0] = 99
++#
++# print(a)
++# print(c)
++
++# dictionary = \
++#     {
++#     'up' : '1',
++#     'left': '2',
++#     'down': '3',
++#     'rigth': '4'
++# }
++# print(dictionary)
++# for i in dictionary:
++#     print(i,' ', dictionary[i])
++print('*-------------------------------------------------------------------------*')
++numbers_1 = {1,2,3,4,5,6}
++numbers_2 = {5,8,46,46,6}
++
++numbersUnion = numbers_1.union(numbers_2)
++print(numbers_1)
++print(numbers_2)
++
++numbersSection = numbers_1.intersection(numbers_2)
++numOneDiffNumTwo = numbers_1.difference(numbers_2)
++numTwoDiffOne = numbers_2.difference(numbers_1)
++
++print(numbersSection)
++print(numOneDiffNumTwo)
++print(numTwoDiffOne)
++
++numbersUnionFrozenSet = frozenset(numbersUnion)
++
++numbers_11 = [1,2,3,4,5,6]
++print(numbers_11)
++numbers_11.pop(2)
++numbers_11.insert(0, 5)
++print(numbers_11)
+Index: Lesson_4/Task_46.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_4/Task_46.py b/Lesson_4/Task_46.py
+new file mode 100644
+--- /dev/null	(date 1649010328562)
++++ b/Lesson_4/Task_46.py	(date 1649010328562)
+@@ -0,0 +1,10 @@
++# 46.	Дано число. Составить список чисел Фибоначчи, в том числе для отрицательных индексов
++print('46.	Дано число. Составить список чисел Фибоначчи, в том числе для отрицательных индексов')
++number = int(input('Enter the number : '))
++list_of_fibonacci = [1, 1]
++list_of_fibonacci_minus = [-1, -1]
++for i in range(2, 1 + number):
++    list_of_fibonacci.append(list_of_fibonacci[i - 2] + list_of_fibonacci[i - 1])
++    list_of_fibonacci_minus.insert(0, list_of_fibonacci[i] * -1)
++list_of_fibonacci_minus.append(list_of_fibonacci)
++print(list_of_fibonacci_minus)
+\ No newline at end of file
+Index: Lesson_4/Task_44.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_4/Task_44.py b/Lesson_4/Task_44.py
+new file mode 100644
+--- /dev/null	(date 1649009595870)
++++ b/Lesson_4/Task_44.py	(date 1649009595870)
+@@ -0,0 +1,20 @@
++# 44.	В заданном списке вещественных чисел найдите разницу между максимальным и минимальным значением дробной части элементов. Пример: [1.1, 1.2, 3.1, 5, 10.01] => 0.19
++import math
++import time
++
++print('44.	В заданном списке вещественных чисел найдите разницу между максимальным и минимальным значением дробной части элементов. '
++      'Пример: [1.1, 1.2, 3.1, 5, 10.01] => 0.19')
++list_of_float_numbers = [1.1, 1.2, 3.1, 5, 10.01]
++float_numbers = []
++for i in list_of_float_numbers:
++      if round(i % 1, 2) > 0:
++            float_numbers.append(round(i % 1, 2))
++print(list_of_float_numbers)
++print(float_numbers)
++start = time.process_time()
++max = max(float_numbers)
++min = min(float_numbers)
++print(f'{start}ms {max - min}')
++# 0.046875ms 0.19 Sort metod
++
++
+Index: Lesson_4/Task_42.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_4/Task_42.py b/Lesson_4/Task_42.py
+new file mode 100644
+--- /dev/null	(date 1648947524079)
++++ b/Lesson_4/Task_42.py	(date 1648947524079)
+@@ -0,0 +1,8 @@
++# 42.	Найти сумму чисел списка стоящих на нечетной позиции
++print('42.	Найти сумму чисел списка стоящих на нечетной позиции')
++list_of_numbers = [1,5,5,6,9,9,9,5,8,7,3]
++print(list_of_numbers)
++result = 0
++for i in range(1, len(list_of_numbers), 2):
++    result += list_of_numbers[i]
++print(result)
+\ No newline at end of file
+diff --git a/Lesson_4/Task_47.py b/Lesson_4/Task_47.py
+new file mode 100644
