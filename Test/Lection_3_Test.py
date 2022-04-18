@@ -4,6 +4,7 @@
 # 1 2 3 5 8 15 23 38
 # получить:
 # [(2,4), (8m64), (38, 1444)]
+
 path = 'file.txt'
 with open(path, 'r') as data:
     for e in data:
