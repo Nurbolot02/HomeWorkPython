@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_5 Task_52 - &#10;# 52.&#9;Дана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности&#10;# Пример: [1, 2, 3, 5, 1, 5, 3, 10] =&gt; [1, 2, 3, 5, 10]">
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Task_52.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HomeWorksPython.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_4_2022_2_18_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_4_2022_2_18_AM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_4 : Random Coef Polynom&#10;Задана натуральная степень k. Сформировать случайным образом список коэффициентов (значения от 1 до 100, можно создать свой генератор случайных чисел или использовать готовый) многочлена и записать в файл многочлен степени k.">
+      <change afterPath="$PROJECT_DIR$/Grocery_store_databases/Grocery_store_databases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grocery_store_databases/LastID.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grocery_store_databases/Product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_4/FindTheSumOfPolynomials.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_4/Polynom1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_4/Polynom2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_4/ReadAndFindMinMaxNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/HymanTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/Task_52.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Lection_3_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Lection_3_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/working_with_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/working_with_files.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,41 +31,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Grocery_store_databases/Grocery_store_databases.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Grocery_store_databases/LastID.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Grocery_store_databases/Product.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Grocery_store_databases/dataBase.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Grocery_store_databases/Структурирование.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lesson_4/RandomCoefPolynom.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/useFulFutires/IsNumber.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27QMDWNBfqOFkmLoziNUqqMcqL0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GeekBrains\HomeWorkPython\Lesson_4" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Task_52">
-    <configuration name="Lection_3_Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HomeWorkPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Lection_3_Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Task_51" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.RandomCoefPolynom (1)">
+    <configuration name="FindTheSumOfPolynomials" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +74,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/Task_51.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/FindTheSumOfPolynomials.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task_52" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomCoefPolynom (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +91,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_52.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/RandomCoefPolynom.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomCoefPolynom" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeWorkPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\GeekBrains\HomeWorkPython\Lesson_4\RandomCoefPolynom.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Task_54" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeWorkPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/Task_54.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list_of_non_repeating_elements" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeWorkPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/list_of_non_repeating_elements.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,9 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Task_52" />
-        <item itemvalue="Python.Task_51" />
-        <item itemvalue="Python.Lection_3_Test" />
+        <item itemvalue="Python.RandomCoefPolynom (1)" />
+        <item itemvalue="Python.FindTheSumOfPolynomials" />
+        <item itemvalue="Python.Task_54" />
+        <item itemvalue="Python.RandomCoefPolynom" />
+        <item itemvalue="Python.list_of_non_repeating_elements" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +186,77 @@
       <option name="presentableId" value="Default" />
       <updated>1649247736399</updated>
     </task>
+    <task id="LOCAL-00001" summary="add Test/Calculator.py">
+      <created>1649852465365</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649852465365</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add Lesson_1 showNumber(-N) To N&#10;RU: # Показат числа от - N до N">
+      <created>1650271233363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650271233363</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add Lesson_1 findMinMaxNumber &#10;RU: # Дано число из отрезка [10, 99]. Показать наибольшую цифру">
+      <created>1650271269946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650271269946</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add Test Lection_3_Test.py&#10;RU: # в файле хранится числа, нужно выбрать четные из них и&#10;# и составить список пар (число: квадрат числа)&#10;# пример:&#10;# 1 2 3 5 8 15 23 38&#10;# получить:&#10;# [(2,4), (8m64), (38, 1444)]">
+      <created>1650271327061</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650271327061</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add Test ListComprehention">
+      <created>1650271409921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650271409921</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add Lesson_4">
+      <created>1651138157451</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651138157451</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add Lesson_4 : prime factors of N.&#10;Given a natural number N. Write a program that will list the prime factors of N.">
+      <created>1651138220599</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651138220599</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add Lesson_4 : non Repeating List Of Numbers.&#10;Задайте последовательность чисел. Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности.">
+      <created>1651138292829</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651138292829</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add Lesson_4 : Find the LCM of two numbers.&#10;Найти НОК двух чисел Через while">
+      <created>1651138429239</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651138429239</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add Lesson_4 : Random Coef Polynom&#10;Задана натуральная степень k. Сформировать случайным образом список коэффициентов (значения от 1 до 100, можно создать свой генератор случайных чисел или использовать готовый) многочлена и записать в файл многочлен степени k.">
+      <created>1651138497159</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651138497159</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,17 +272,76 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Lesson_5 Task_52 - &#10;# 52.&#9;Дана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности&#10;# Пример: [1, 2, 3, 5, 1, 5, 3, 10] =&gt; [1, 2, 3, 5, 10]" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Lesson_5 Task_52 - &#10;# 52.&#9;Дана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности&#10;# Пример: [1, 2, 3, 5, 1, 5, 3, 10] =&gt; [1, 2, 3, 5, 10]" />
+    <MESSAGE value="add Test/Calculator.py" />
+    <MESSAGE value="add Lesson_1 showNumber(-N) To N&#10;RU: # Показат числа от - N до N" />
+    <MESSAGE value="add Lesson_1 findMinMaxNumber &#10;RU: # Дано число из отрезка [10, 99]. Показать наибольшую цифру" />
+    <MESSAGE value="add Test Lection_3_Test.py&#10;RU: # в файле хранится числа, нужно выбрать четные из них и&#10;# и составить список пар (число: квадрат числа)&#10;# пример:&#10;# 1 2 3 5 8 15 23 38&#10;# получить:&#10;# [(2,4), (8m64), (38, 1444)]" />
+    <MESSAGE value="add Test ListComprehention" />
+    <MESSAGE value="add Lesson_4" />
+    <MESSAGE value="add Lesson_4 : prime factors of N.&#10;Given a natural number N. Write a program that will list the prime factors of N." />
+    <MESSAGE value="add Lesson_4 : non Repeating List Of Numbers.&#10;Задайте последовательность чисел. Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности." />
+    <MESSAGE value="add Lesson_4 : Find the LCM of two numbers.&#10;Найти НОК двух чисел Через while" />
+    <MESSAGE value="add Lesson_4 : Random Coef Polynom&#10;Задана натуральная степень k. Сформировать случайным образом список коэффициентов (значения от 1 до 100, можно создать свой генератор случайных чисел или использовать готовый) многочлена и записать в файл многочлен степени k." />
+    <option name="LAST_COMMIT_MESSAGE" value="add Lesson_4 : Random Coef Polynom&#10;Задана натуральная степень k. Сформировать случайным образом список коэффициентов (значения от 1 до 100, можно создать свой генератор случайных чисел или использовать готовый) многочлена и записать в файл многочлен степени k." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lesson_5/Task_52.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/Lesson_1/findMaxNumberInNumbers.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test/HymanTest.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Grocery_store_databases/Структурирование.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test/working_with_files.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_4/ReadAndFindMinMaxNumber.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_4/primeFactorsOfN.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Grocery_store_databases/Product.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_4/list_of_non_repeating_elements.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="data" />
+        <watch expression="result" />
+        <watch expression="sumMNumbers" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

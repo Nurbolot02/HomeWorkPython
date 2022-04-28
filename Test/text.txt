@@ -1,2 +1,3 @@
-Grean Blue 
-Yellow 
+1 Yellow
+2 Grean
+3 Blue
