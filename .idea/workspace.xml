@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_4 : Random Coef Polynom&#10;Задана натуральная степень k. Сформировать случайным образом список коэффициентов (значения от 1 до 100, можно создать свой генератор случайных чисел или использовать готовый) многочлена и записать в файл многочлен степени k.">
-      <change afterPath="$PROJECT_DIR$/Grocery_store_databases/Grocery_store_databases.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Grocery_store_databases/LastID.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Grocery_store_databases/Product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_4/FindTheSumOfPolynomials.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_4/Polynom1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_4/Polynom2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_4/ReadAndFindMinMaxNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/HymanTest.py" afterDir="false" />
+    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add dataBase Products (dont End)&#10;базы данных продуктов не законченый проект">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson_5/Task_52.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Lection_3_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Lection_3_Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/working_with_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/working_with_files.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +51,7 @@
       <recent name="C:\GeekBrains\HomeWorkPython\Lesson_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RandomCoefPolynom (1)">
+  <component name="RunManager" selected="Python.Grocery_store_databases">
     <configuration name="FindTheSumOfPolynomials" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,6 +65,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/FindTheSumOfPolynomials.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Grocery_store_databases" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeWorkPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Grocery_store_databases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grocery_store_databases/Grocery_store_databases.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,34 +157,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="list_of_non_repeating_elements" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HomeWorkPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/list_of_non_repeating_elements.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Grocery_store_databases" />
         <item itemvalue="Python.RandomCoefPolynom (1)" />
         <item itemvalue="Python.FindTheSumOfPolynomials" />
         <item itemvalue="Python.Task_54" />
         <item itemvalue="Python.RandomCoefPolynom" />
-        <item itemvalue="Python.list_of_non_repeating_elements" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +246,35 @@
       <option name="project" value="LOCAL" />
       <updated>1651138497159</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add Lesson_4 : Read numbers.txt and Find max and min number&#10;прочитать numbers.txt найти максимальное и минимальное число">
+      <created>1651138596767</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651138596767</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add Lesson_4 : Read Polynom1.txt and Polynom2.txt. Find sum polynoms&#10;Даны два файла, в каждом из которых находится запись многочлена. Задача - сформировать файл, содержащий сумму многочленов (нет нулевых кофициентов).">
+      <created>1651138705652</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651138705652</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update : Test working with files">
+      <created>1651138763705</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651138763705</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add dataBase Products (dont End)&#10;базы данных продуктов не законченый проект">
+      <created>1651138933026</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651138933026</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +300,11 @@
     <MESSAGE value="add Lesson_4 : non Repeating List Of Numbers.&#10;Задайте последовательность чисел. Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности." />
     <MESSAGE value="add Lesson_4 : Find the LCM of two numbers.&#10;Найти НОК двух чисел Через while" />
     <MESSAGE value="add Lesson_4 : Random Coef Polynom&#10;Задана натуральная степень k. Сформировать случайным образом список коэффициентов (значения от 1 до 100, можно создать свой генератор случайных чисел или использовать готовый) многочлена и записать в файл многочлен степени k." />
-    <option name="LAST_COMMIT_MESSAGE" value="add Lesson_4 : Random Coef Polynom&#10;Задана натуральная степень k. Сформировать случайным образом список коэффициентов (значения от 1 до 100, можно создать свой генератор случайных чисел или использовать готовый) многочлена и записать в файл многочлен степени k." />
+    <MESSAGE value="add Lesson_4 : Read numbers.txt and Find max and min number&#10;прочитать numbers.txt найти максимальное и минимальное число" />
+    <MESSAGE value="add Lesson_4 : Read Polynom1.txt and Polynom2.txt. Find sum polynoms&#10;Даны два файла, в каждом из которых находится запись многочлена. Задача - сформировать файл, содержащий сумму многочленов (нет нулевых кофициентов)." />
+    <MESSAGE value="update : Test working with files" />
+    <MESSAGE value="add dataBase Products (dont End)&#10;базы данных продуктов не законченый проект" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dataBase Products (dont End)&#10;базы данных продуктов не законченый проект" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -291,11 +313,6 @@
           <url>file://$PROJECT_DIR$/Lesson_1/findMaxNumberInNumbers.py</url>
           <line>15</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Test/HymanTest.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Grocery_store_databases/Структурирование.py</url>

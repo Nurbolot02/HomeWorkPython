@@ -10,7 +10,10 @@ with open(path, 'r') as data:
     for e in data:
         number_text = list(map(int, e.split()))
         list_of_numbers = [(i, i**2) for i in number_text if i % 2 == 0]
+with open(path, 'a') as d:
+    d.write(f'\n{list_of_numbers}')
 print(list_of_numbers)
+
 
 # path = 'file.txt'
 # numbers_text = ''
