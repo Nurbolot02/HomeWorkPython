@@ -7,13 +7,21 @@ import random
 from useFulFutires.IsNumber import isNumber
 
 k = isNumber()
-mNumbers = [f'*x**{k} + ','*x + ',' = 0']
-randomKoef = [random.randint(0, 100) for i in range(len(mNumbers))]
+count = k
+randomKoef = [random.randint(0, 100) for i in range(k+1)]
 
 resultT = ""
-for i in range(len(randomKoef)):
-    resultT += str(randomKoef[i]) + mNumbers[i]
-    print(f'{randomKoef[i]}{mNumbers[i]}',end='')
+for i in range(k):
+    if i == k-1:
+        resultT += str(randomKoef[i]) + '*x + '
+        resultT += str(randomKoef[i+1])
+        break
+    else:
+        resultT += str(randomKoef[i]) + f'*x**{count} + '
+    count -= 1
+
+resultT += ' = 0'
+print(resultT)
 path = 'randomCoefPolynom.txt'
 
 with open(path, 'w') as d:

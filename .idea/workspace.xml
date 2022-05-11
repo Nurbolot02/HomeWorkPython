@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Test - Lection_3">
-      <change afterPath="$PROJECT_DIR$/Lesson_4/findNumberPI.py" afterDir="false" />
+    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_4  findNumberPI&#10;# Вычислить число Пи c заданной точностью d">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_4/RandomCoefPolynom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_4/RandomCoefPolynom.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="C:\GeekBrains\HomeWorkPython\Lesson_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.findNumberPI">
+  <component name="RunManager" selected="Python.RandomCoefPolynom (1)">
     <configuration name="FindTheSumOfPolynomials" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,9 +158,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RandomCoefPolynom (1)" />
         <item itemvalue="Python.findNumberPI" />
         <item itemvalue="Python.FindTheSumOfPolynomials" />
-        <item itemvalue="Python.RandomCoefPolynom (1)" />
         <item itemvalue="Python.Grocery_store_databases" />
         <item itemvalue="Python.Task_54" />
       </list>
@@ -287,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651139084143</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add Lesson_4  findNumberPI&#10;# Вычислить число Пи c заданной точностью d">
+      <created>1652288601386</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1652288601386</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,7 +326,8 @@
     <MESSAGE value="add dataBase Products (dont End)&#10;базы данных продуктов не законченый проект" />
     <MESSAGE value="Cutting" />
     <MESSAGE value="add Test - Lection_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Test - Lection_3" />
+    <MESSAGE value="add Lesson_4  findNumberPI&#10;# Вычислить число Пи c заданной точностью d" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Lesson_4  findNumberPI&#10;# Вычислить число Пи c заданной точностью d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -363,6 +371,11 @@
           <url>file://$PROJECT_DIR$/Lesson_4/FindTheSumOfPolynomials.py</url>
           <line>5</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_4/RandomCoefPolynom.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
