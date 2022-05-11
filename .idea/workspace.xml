@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add dataBase Products (dont End)&#10;базы данных продуктов не законченый проект">
+    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Test - Lection_3">
+      <change afterPath="$PROJECT_DIR$/Lesson_4/findNumberPI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_5/Task_52.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Lection_3_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Lection_3_Test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <recent name="C:\GeekBrains\HomeWorkPython\Lesson_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Grocery_store_databases">
+  <component name="RunManager" selected="Python.findNumberPI">
     <configuration name="FindTheSumOfPolynomials" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,27 +114,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RandomCoefPolynom" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HomeWorkPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\GeekBrains\HomeWorkPython\Lesson_4\RandomCoefPolynom.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Task_54" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,13 +135,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="findNumberPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeWorkPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/findNumberPI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Grocery_store_databases" />
-        <item itemvalue="Python.RandomCoefPolynom (1)" />
+        <item itemvalue="Python.findNumberPI" />
         <item itemvalue="Python.FindTheSumOfPolynomials" />
+        <item itemvalue="Python.RandomCoefPolynom (1)" />
+        <item itemvalue="Python.Grocery_store_databases" />
         <item itemvalue="Python.Task_54" />
-        <item itemvalue="Python.RandomCoefPolynom" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651138933026</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Cutting">
+      <created>1651139047821</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651139047821</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add Test - Lection_3">
+      <created>1651139084143</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1651139084143</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,7 +317,9 @@
     <MESSAGE value="add Lesson_4 : Read Polynom1.txt and Polynom2.txt. Find sum polynoms&#10;Даны два файла, в каждом из которых находится запись многочлена. Задача - сформировать файл, содержащий сумму многочленов (нет нулевых кофициентов)." />
     <MESSAGE value="update : Test working with files" />
     <MESSAGE value="add dataBase Products (dont End)&#10;базы данных продуктов не законченый проект" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dataBase Products (dont End)&#10;базы данных продуктов не законченый проект" />
+    <MESSAGE value="Cutting" />
+    <MESSAGE value="add Test - Lection_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Test - Lection_3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -343,6 +358,11 @@
           <url>file://$PROJECT_DIR$/Lesson_4/list_of_non_repeating_elements.py</url>
           <line>9</line>
           <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_4/FindTheSumOfPolynomials.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
