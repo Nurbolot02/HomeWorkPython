@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_4  findNumberPI&#10;# Вычислить число Пи c заданной точностью d">
+    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_5 - Task_4: candyBot and  cleverCandyBot&#10;RU:&#10;# Создайте программу для игры с конфетами человек против человека.&#10;# Условие задачи: На столе лежит 2021 конфета. Играют два игрока делая ход друг после друга.&#10;# Первый ход определяется жеребьёвкой. За один ход можно забрать не более чем 28 конфет.&#10;# Все конфеты оппонента достаются сделавшему последний ход. Сколько конфет нужно взять первому игроку,&#10;# чтобы забрать все конфеты у своего конкурента?&#10;&#10;# a) Добавьте игру против бота&#10;# b) Подумайте как наделить бота &quot;интеллектом&quot;">
+      <change afterPath="$PROJECT_DIR$/Lesson_5/Task_5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_4/RandomCoefPolynom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_4/RandomCoefPolynom.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +50,8 @@
       <recent name="C:\GeekBrains\HomeWorkPython\Lesson_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RandomCoefPolynom (1)">
-    <configuration name="FindTheSumOfPolynomials" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Task_5">
+    <configuration name="Task_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/FindTheSumOfPolynomials.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Grocery_store_databases" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Task_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Grocery_store_databases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grocery_store_databases/Grocery_store_databases.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RandomCoefPolynom (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Task_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/RandomCoefPolynom.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task_54" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Task_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/Task_54.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="findNumberPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Task_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/findNumberPI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RandomCoefPolynom (1)" />
-        <item itemvalue="Python.findNumberPI" />
-        <item itemvalue="Python.FindTheSumOfPolynomials" />
-        <item itemvalue="Python.Grocery_store_databases" />
-        <item itemvalue="Python.Task_54" />
+        <item itemvalue="Python.Task_5" />
+        <item itemvalue="Python.Task_4" />
+        <item itemvalue="Python.Task_3" />
+        <item itemvalue="Python.Task_2" />
+        <item itemvalue="Python.Task_1" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +294,63 @@
       <option name="project" value="LOCAL" />
       <updated>1652288601386</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update Lesson_4  randomCoefPolynom&#10;RU:&#10;Задана натуральная степень k.&#10;# Сформировать случайным образом список коэффициентов (значения от 0 до 100) многочлена&#10;# и записать в файл многочлен степени k.&#10;# *Пример: k=2 =&gt; 2*x² + 4*x + 5 = 0 или x² + 5 = 0 или 10*x² = 0">
+      <created>1652290348053</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1652290348053</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update Lesson_4 - randomCoefPolynom&#10;RU:&#10;Задана натуральная степень k.&#10;# Сформировать случайным образом список коэффициентов (значения от 0 до 100) многочлена&#10;# и записать в файл многочлен степени k.&#10;# *Пример: k=2 =&gt; 2*x² + 4*x + 5 = 0 или x² + 5 = 0 или 10*x² = 0">
+      <created>1652290396789</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1652290396789</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update Lesson_5 - A[i] - 1 = A[i-1] - find this number&#10;RU:&#10;В файле находится N натуральных чисел, записанных через пробел.&#10;# Среди чисел не хватает одного, чтобы выполнялось условие A[i] - 1 = A[i-1]. Найдите это число.">
+      <created>1652632157185</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1652632157185</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add Lesson_5 - A[i] - 1 = A[i-1] - find this number&#10;RU:&#10;В файле находится N натуральных чисел, записанных через пробел.&#10;# Среди чисел не хватает одного, чтобы выполнялось условие A[i] - 1 = A[i-1]. Найдите это число.">
+      <created>1652632183481</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1652632183481</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add Lesson_5 - Task_1: A[i] - 1 = A[i-1] - find this number&#10;RU:&#10;В файле находится N натуральных чисел, записанных через пробел.&#10;# Среди чисел не хватает одного, чтобы выполнялось условие A[i] - 1 = A[i-1]. Найдите это число.">
+      <created>1652632272121</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652632272121</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add Lesson_5 - Task_2: filter numbers&#10;RU:&#10;# 2. Дан список чисел. Создайте список, в который попадают числа,&#10;# описываемые возрастающую последовательность. Порядок элементов менять нельзя.&#10;#     *Пример:*&#10;#     [1, 5, 2, 3, 4, 6, 1, 7] =&gt; [1, 5, 6, 7]">
+      <created>1652632315192</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1652632315192</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add Lesson_5 - Task_3: delete words with text 'абв' &#10;RU:&#10;# 3. Напишите программу, удаляющую из текста все слова, содержащие &quot;абв&quot;.">
+      <created>1652632389293</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1652632389293</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add Lesson_5 - Task_4: candyBot and  cleverCandyBot&#10;RU:&#10;# Создайте программу для игры с конфетами человек против человека.&#10;# Условие задачи: На столе лежит 2021 конфета. Играют два игрока делая ход друг после друга.&#10;# Первый ход определяется жеребьёвкой. За один ход можно забрать не более чем 28 конфет.&#10;# Все конфеты оппонента достаются сделавшему последний ход. Сколько конфет нужно взять первому игроку,&#10;# чтобы забрать все конфеты у своего конкурента?&#10;&#10;# a) Добавьте игру против бота&#10;# b) Подумайте как наделить бота &quot;интеллектом&quot;">
+      <created>1652632447200</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1652632447200</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,8 +365,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Lesson_5 Task_52 - &#10;# 52.&#9;Дана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности&#10;# Пример: [1, 2, 3, 5, 1, 5, 3, 10] =&gt; [1, 2, 3, 5, 10]" />
-    <MESSAGE value="add Test/Calculator.py" />
     <MESSAGE value="add Lesson_1 showNumber(-N) To N&#10;RU: # Показат числа от - N до N" />
     <MESSAGE value="add Lesson_1 findMinMaxNumber &#10;RU: # Дано число из отрезка [10, 99]. Показать наибольшую цифру" />
     <MESSAGE value="add Test Lection_3_Test.py&#10;RU: # в файле хранится числа, нужно выбрать четные из них и&#10;# и составить список пар (число: квадрат числа)&#10;# пример:&#10;# 1 2 3 5 8 15 23 38&#10;# получить:&#10;# [(2,4), (8m64), (38, 1444)]" />
@@ -327,7 +381,16 @@
     <MESSAGE value="Cutting" />
     <MESSAGE value="add Test - Lection_3" />
     <MESSAGE value="add Lesson_4  findNumberPI&#10;# Вычислить число Пи c заданной точностью d" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Lesson_4  findNumberPI&#10;# Вычислить число Пи c заданной точностью d" />
+    <MESSAGE value="update Lesson_4  randomCoefPolynom&#10;RU:&#10;Задана натуральная степень k.&#10;# Сформировать случайным образом список коэффициентов (значения от 0 до 100) многочлена&#10;# и записать в файл многочлен степени k.&#10;# *Пример: k=2 =&gt; 2*x² + 4*x + 5 = 0 или x² + 5 = 0 или 10*x² = 0" />
+    <MESSAGE value="update Lesson_4 - randomCoefPolynom&#10;RU:&#10;Задана натуральная степень k.&#10;# Сформировать случайным образом список коэффициентов (значения от 0 до 100) многочлена&#10;# и записать в файл многочлен степени k.&#10;# *Пример: k=2 =&gt; 2*x² + 4*x + 5 = 0 или x² + 5 = 0 или 10*x² = 0" />
+    <MESSAGE value="update Lesson_5 - A[i] - 1 = A[i-1] - find this number&#10;RU:&#10;В файле находится N натуральных чисел, записанных через пробел.&#10;# Среди чисел не хватает одного, чтобы выполнялось условие A[i] - 1 = A[i-1]. Найдите это число." />
+    <MESSAGE value="add Lesson_5 - A[i] - 1 = A[i-1] - find this number&#10;RU:&#10;В файле находится N натуральных чисел, записанных через пробел.&#10;# Среди чисел не хватает одного, чтобы выполнялось условие A[i] - 1 = A[i-1]. Найдите это число." />
+    <MESSAGE value="add Lesson_5 - filter numbers&#10;RU:&#10;# 2. Дан список чисел. Создайте список, в который попадают числа,&#10;# описываемые возрастающую последовательность. Порядок элементов менять нельзя." />
+    <MESSAGE value="add Lesson_5 - Task_1: A[i] - 1 = A[i-1] - find this number&#10;RU:&#10;В файле находится N натуральных чисел, записанных через пробел.&#10;# Среди чисел не хватает одного, чтобы выполнялось условие A[i] - 1 = A[i-1]. Найдите это число." />
+    <MESSAGE value="add Lesson_5 - Task_2: filter numbers&#10;RU:&#10;# 2. Дан список чисел. Создайте список, в который попадают числа,&#10;# описываемые возрастающую последовательность. Порядок элементов менять нельзя.&#10;#     *Пример:*&#10;#     [1, 5, 2, 3, 4, 6, 1, 7] =&gt; [1, 5, 6, 7]" />
+    <MESSAGE value="add Lesson_5 - Task_3: delete words with text 'абв' &#10;RU:&#10;# 3. Напишите программу, удаляющую из текста все слова, содержащие &quot;абв&quot;." />
+    <MESSAGE value="add Lesson_5 - Task_4: candyBot and  cleverCandyBot&#10;RU:&#10;# Создайте программу для игры с конфетами человек против человека.&#10;# Условие задачи: На столе лежит 2021 конфета. Играют два игрока делая ход друг после друга.&#10;# Первый ход определяется жеребьёвкой. За один ход можно забрать не более чем 28 конфет.&#10;# Все конфеты оппонента достаются сделавшему последний ход. Сколько конфет нужно взять первому игроку,&#10;# чтобы забрать все конфеты у своего конкурента?&#10;&#10;# a) Добавьте игру против бота&#10;# b) Подумайте как наделить бота &quot;интеллектом&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Lesson_5 - Task_4: candyBot and  cleverCandyBot&#10;RU:&#10;# Создайте программу для игры с конфетами человек против человека.&#10;# Условие задачи: На столе лежит 2021 конфета. Играют два игрока делая ход друг после друга.&#10;# Первый ход определяется жеребьёвкой. За один ход можно забрать не более чем 28 конфет.&#10;# Все конфеты оппонента достаются сделавшему последний ход. Сколько конфет нужно взять первому игроку,&#10;# чтобы забрать все конфеты у своего конкурента?&#10;&#10;# a) Добавьте игру против бота&#10;# b) Подумайте как наделить бота &quot;интеллектом&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -353,19 +416,9 @@
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lesson_4/primeFactorsOfN.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Grocery_store_databases/Product.py</url>
           <line>20</line>
           <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lesson_4/list_of_non_repeating_elements.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Lesson_4/FindTheSumOfPolynomials.py</url>
@@ -376,6 +429,16 @@
           <url>file://$PROJECT_DIR$/Lesson_4/RandomCoefPolynom.py</url>
           <line>10</line>
           <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_5/Task_4.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_5/Task_5.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="83" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
