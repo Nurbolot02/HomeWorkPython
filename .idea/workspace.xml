@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_5 - Task_4: candyBot and  cleverCandyBot&#10;RU:&#10;# Создайте программу для игры с конфетами человек против человека.&#10;# Условие задачи: На столе лежит 2021 конфета. Играют два игрока делая ход друг после друга.&#10;# Первый ход определяется жеребьёвкой. За один ход можно забрать не более чем 28 конфет.&#10;# Все конфеты оппонента достаются сделавшему последний ход. Сколько конфет нужно взять первому игроку,&#10;# чтобы забрать все конфеты у своего конкурента?&#10;&#10;# a) Добавьте игру против бота&#10;# b) Подумайте как наделить бота &quot;интеллектом&quot;">
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Task_5.py" afterDir="false" />
+    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_5 - Task_5: Krestiki noliki&#10;RU:&#10;# Создайте программу для игры в &quot;Крестики-нолики&quot;.">
+      <change afterPath="$PROJECT_DIR$/Lesson_5/Task_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_5/Task_6.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,28 +51,7 @@
       <recent name="C:\GeekBrains\HomeWorkPython\Lesson_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Task_5">
-    <configuration name="Task_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HomeWorkPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Task_6">
     <configuration name="Task_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,13 +136,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Task_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeWorkPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Task_6" />
         <item itemvalue="Python.Task_5" />
         <item itemvalue="Python.Task_4" />
         <item itemvalue="Python.Task_3" />
         <item itemvalue="Python.Task_2" />
-        <item itemvalue="Python.Task_1" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652632447200</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add Lesson_5 - Task_5: Krestiki noliki&#10;RU:&#10;# Создайте программу для игры в &quot;Крестики-нолики&quot;.">
+      <created>1652634187951</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1652634187951</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,7 +373,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Lesson_1 showNumber(-N) To N&#10;RU: # Показат числа от - N до N" />
     <MESSAGE value="add Lesson_1 findMinMaxNumber &#10;RU: # Дано число из отрезка [10, 99]. Показать наибольшую цифру" />
     <MESSAGE value="add Test Lection_3_Test.py&#10;RU: # в файле хранится числа, нужно выбрать четные из них и&#10;# и составить список пар (число: квадрат числа)&#10;# пример:&#10;# 1 2 3 5 8 15 23 38&#10;# получить:&#10;# [(2,4), (8m64), (38, 1444)]" />
     <MESSAGE value="add Test ListComprehention" />
@@ -390,7 +397,8 @@
     <MESSAGE value="add Lesson_5 - Task_2: filter numbers&#10;RU:&#10;# 2. Дан список чисел. Создайте список, в который попадают числа,&#10;# описываемые возрастающую последовательность. Порядок элементов менять нельзя.&#10;#     *Пример:*&#10;#     [1, 5, 2, 3, 4, 6, 1, 7] =&gt; [1, 5, 6, 7]" />
     <MESSAGE value="add Lesson_5 - Task_3: delete words with text 'абв' &#10;RU:&#10;# 3. Напишите программу, удаляющую из текста все слова, содержащие &quot;абв&quot;." />
     <MESSAGE value="add Lesson_5 - Task_4: candyBot and  cleverCandyBot&#10;RU:&#10;# Создайте программу для игры с конфетами человек против человека.&#10;# Условие задачи: На столе лежит 2021 конфета. Играют два игрока делая ход друг после друга.&#10;# Первый ход определяется жеребьёвкой. За один ход можно забрать не более чем 28 конфет.&#10;# Все конфеты оппонента достаются сделавшему последний ход. Сколько конфет нужно взять первому игроку,&#10;# чтобы забрать все конфеты у своего конкурента?&#10;&#10;# a) Добавьте игру против бота&#10;# b) Подумайте как наделить бота &quot;интеллектом&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Lesson_5 - Task_4: candyBot and  cleverCandyBot&#10;RU:&#10;# Создайте программу для игры с конфетами человек против человека.&#10;# Условие задачи: На столе лежит 2021 конфета. Играют два игрока делая ход друг после друга.&#10;# Первый ход определяется жеребьёвкой. За один ход можно забрать не более чем 28 конфет.&#10;# Все конфеты оппонента достаются сделавшему последний ход. Сколько конфет нужно взять первому игроку,&#10;# чтобы забрать все конфеты у своего конкурента?&#10;&#10;# a) Добавьте игру против бота&#10;# b) Подумайте как наделить бота &quot;интеллектом&quot;" />
+    <MESSAGE value="add Lesson_5 - Task_5: Krestiki noliki&#10;RU:&#10;# Создайте программу для игры в &quot;Крестики-нолики&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="add Lesson_5 - Task_5: Krestiki noliki&#10;RU:&#10;# Создайте программу для игры в &quot;Крестики-нолики&quot;." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -439,6 +447,11 @@
           <url>file://$PROJECT_DIR$/Lesson_5/Task_5.py</url>
           <line>177</line>
           <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_5/Task_6.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
