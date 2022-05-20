@@ -18,8 +18,8 @@ print(list_of_numbers)
 # path = 'file.txt'
 # numbers_text = ''
 # with open(path, 'r') as data:
-#     for i in data:
+#     for i input_data data:
 #         numbers_text = i.split()
-# list_of_numbers = [int(i) for i in numbers_text]
-# result = [(i, i ** 2) for i in list_of_numbers if i % 2 == 0]
+# list_of_numbers = [int(i) for i input_data numbers_text]
+# result = [(i, i ** 2) for i input_data list_of_numbers if i % 2 == 0]
 # print(result)

@@ -1,0 +1,348 @@
+Index: Test/AckermanTest.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Test/AckermanTest.py b/Test/AckermanTest.py
+new file mode 100644
+--- /dev/null	(date 1649364277931)
++++ b/Test/AckermanTest.py	(date 1649364277931)
+@@ -0,0 +1,11 @@
++# Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
++# m = 2, n = 3 -> A(m,n) = 29
++from useFulFutires.Ackerman import Ackerman
++from useFulFutires.IsNumber import isNumber
++
++mStr = 'Enter the m:'
++m = isNumber(mStr)
++nStr = 'Enter the n:'
++n = isNumber(nStr)
++result = Ackerman(n, m)
++print(result)
+\ No newline at end of file
+Index: Lesson_5/file_55.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_5/file_55.txt b/Lesson_5/file_55.txt
+new file mode 100644
+--- /dev/null	(date 1649338989737)
++++ b/Lesson_5/file_55.txt	(date 1649338989737)
+@@ -0,0 +1,1 @@
++97,55,24,92,38,
+\ No newline at end of file
+Index: Lesson_5/Task_52.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># 52.\tДана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности\r\n# Пример: [1, 2, 3, 5, 1, 5, 3, 10] => [1, 2, 3, 5, 10]\r\nlist_of_numbers = [1, 2, 3, 5, 1, 5, 3, 10]\r\nresult_list_of_numbers = [list_of_numbers[0]]\r\nprint(list_of_numbers)\r\n\r\nfor i in list_of_numbers:\r\n    for j in range(len(result_list_of_numbers)):\r\n        if i == result_list_of_numbers[j]:\r\n            break\r\n        elif j == len(result_list_of_numbers) - 1:\r\n            result_list_of_numbers.append(i)\r\nprint(result_list_of_numbers)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_5/Task_52.py b/Lesson_5/Task_52.py
+--- a/Lesson_5/Task_52.py	(revision 554586f7c1a4c90e615c9e50d66ad6070445f40f)
++++ b/Lesson_5/Task_52.py	(date 1649268255028)
+@@ -3,6 +3,7 @@
+ list_of_numbers = [1, 2, 3, 5, 1, 5, 3, 10]
+ result_list_of_numbers = [list_of_numbers[0]]
+ print(list_of_numbers)
++print(set(list_of_numbers))
+ 
+ for i in list_of_numbers:
+     for j in range(len(result_list_of_numbers)):
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c9dee4d1-1e1d-4f76-b07d-16ea3c997747\" name=\"Changes\" comment=\"add Lesson_5 Task_52 - &#10;# 52.&#9;Дана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности&#10;# Пример: [1, 2, 3, 5, 1, 5, 3, 10] =&gt; [1, 2, 3, 5, 10]\">\r\n      <change afterPath=\"$PROJECT_DIR$/Lesson_5/Task_52.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/HomeWorksPython.iml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_4_2022_2_18_AM_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_4_2022_2_18_AM__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"27QMDWNBfqOFkmLoziNUqqMcqL0\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.Task_52\">\r\n    <configuration name=\"Lection_3_Test\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"HomeWorkPython\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Test\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Test/Lection_3_Test.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Task_51\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"HomeWorkPython\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Lesson_4\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Lesson_4/Task_51.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Task_52\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"HomeWorkPython\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Lesson_5\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Lesson_5/Task_52.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.Task_52\" />\r\n        <item itemvalue=\"Python.Task_51\" />\r\n        <item itemvalue=\"Python.Lection_3_Test\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c9dee4d1-1e1d-4f76-b07d-16ea3c997747\" name=\"Changes\" comment=\"\" />\r\n      <created>1649247736399</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1649247736399</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"add Lesson_5 Task_52 - &#10;# 52.&#9;Дана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности&#10;# Пример: [1, 2, 3, 5, 1, 5, 3, 10] =&gt; [1, 2, 3, 5, 10]\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"add Lesson_5 Task_52 - &#10;# 52.&#9;Дана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности&#10;# Пример: [1, 2, 3, 5, 1, 5, 3, 10] =&gt; [1, 2, 3, 5, 10]\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/Lesson_5/Task_52.py</url>\r\n          <line>4</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 554586f7c1a4c90e615c9e50d66ad6070445f40f)
++++ b/.idea/workspace.xml	(date 1649838981380)
+@@ -1,15 +1,15 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_5 Task_52 - &#10;# 52.&#9;Дана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности&#10;# Пример: [1, 2, 3, 5, 1, 5, 3, 10] =&gt; [1, 2, 3, 5, 10]">
+-      <change afterPath="$PROJECT_DIR$/Lesson_5/Task_52.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/HomeWorksPython.iml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_4_2022_2_18_AM_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_4_2022_2_18_AM__Changes_.xml" beforeDir="false" />
++    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Test/Calculator.py">
++      <change afterPath="$PROJECT_DIR$/Lesson_5/Task_53.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Lesson_5/Task_55.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Lesson_5/file_55.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Test/AckermanTest.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/useFulFutires/Ackerman.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Lesson_5/Task_52.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/Task_52.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Test/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Calculator.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -24,22 +24,73 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PREVIOUS_COMMIT_AUTHORS">
++      <list>
++        <option value="Nurbolot &lt;ngulamidinov@gmail.com&gt;" />
++      </list>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectId" id="27QMDWNBfqOFkmLoziNUqqMcqL0" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent">
++    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+   </component>
+-  <component name="RunManager" selected="Python.Task_52">
+-    <configuration name="Lection_3_Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="Python.Calculator">
++    <configuration name="Ackerman" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="HomeWorkPython" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/useFulFutires" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/useFulFutires/Ackerman.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="AckermanTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="HomeWorkPython" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/AckermanTest.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="HomeWorkPython" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -51,7 +102,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Lection_3_Test.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Calculator.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -60,7 +111,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="Task_51" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="FunctionInFunction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="HomeWorkPython" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -68,11 +119,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4/Task_51.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/FunctionInFunction.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -104,9 +155,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Python.Calculator" />
++        <item itemvalue="Python.FunctionInFunction" />
++        <item itemvalue="Python.Ackerman" />
+         <item itemvalue="Python.Task_52" />
+-        <item itemvalue="Python.Task_51" />
+-        <item itemvalue="Python.Lection_3_Test" />
++        <item itemvalue="Python.AckermanTest" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -119,6 +172,42 @@
+       <option name="presentableId" value="Default" />
+       <updated>1649247736399</updated>
+     </task>
++    <task id="LOCAL-00001" summary="add Lesson_5 Task_52 - &#10;# 52.&#9;Дана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности&#10;# Пример: [1, 2, 3, 5, 1, 5, 3, 10] =&gt; [1, 2, 3, 5, 10]">
++      <created>1649267909467</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1649267909467</updated>
++    </task>
++    <task id="LOCAL-00002" summary="add Lesson_5 Task_52 - &#10;# 52.&#9;Дана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности&#10;# Пример: [1, 2, 3, 5, 1, 5, 3, 10] =&gt; [1, 2, 3, 5, 10]">
++      <created>1649268291616</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1649268291616</updated>
++    </task>
++    <task id="LOCAL-00003" summary="update usefulFutires isNumber.py">
++      <created>1649838740307</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1649838740307</updated>
++    </task>
++    <task id="LOCAL-00004" summary="add Test/FunctionInFunction.py">
++      <created>1649838785627</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1649838785627</updated>
++    </task>
++    <task id="LOCAL-00005" summary="add Test/Calculator.py">
++      <created>1649838814710</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1649838814710</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -133,8 +222,12 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
++    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="add Lesson_5 Task_52 - &#10;# 52.&#9;Дана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности&#10;# Пример: [1, 2, 3, 5, 1, 5, 3, 10] =&gt; [1, 2, 3, 5, 10]" />
+-    <option name="LAST_COMMIT_MESSAGE" value="add Lesson_5 Task_52 - &#10;# 52.&#9;Дана последовательность чисел. Получить список неповторяющихся элементов исходной последовательности&#10;# Пример: [1, 2, 3, 5, 1, 5, 3, 10] =&gt; [1, 2, 3, 5, 10]" />
++    <MESSAGE value="update usefulFutires isNumber.py" />
++    <MESSAGE value="add Test/FunctionInFunction.py" />
++    <MESSAGE value="add Test/Calculator.py" />
++    <option name="LAST_COMMIT_MESSAGE" value="add Test/Calculator.py" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+@@ -143,6 +236,11 @@
+           <url>file://$PROJECT_DIR$/Lesson_5/Task_52.py</url>
+           <line>4</line>
+           <option name="timeStamp" value="1" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
++          <url>file://$PROJECT_DIR$/Test/AckermanTest.py</url>
++          <line>9</line>
++          <option name="timeStamp" value="3" />
+         </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
+Index: Lesson_5/Task_55.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_5/Task_55.py b/Lesson_5/Task_55.py
+new file mode 100644
+--- /dev/null	(date 1649344387338)
++++ b/Lesson_5/Task_55.py	(date 1649344387338)
+@@ -0,0 +1,12 @@
++# 55.	В файле находится N натуральных чисел, записанных через пробел. Среди чисел не хватает одного, чтобы выполнялось условие A[i] - 1 = A[i-1]. Найти его
++import random
++from useFulFutires.IsNumber import isNumber
++
++print('55.	В файле находится N натуральных чисел, записанных через пробел. Среди чисел не хватает одного, чтобы выполнялось условие A[i] - 1 = A[i-1]. Найти его')
++
++n = isNumber()
++path = 'file_55.txt'
++with open(path, "a") as data:
++    for i in range(n):
++        number = random.randint(0, 100)
++        data.write(f'{number},')
+\ No newline at end of file
+Index: Lesson_5/Task_53.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_5/Task_53.py b/Lesson_5/Task_53.py
+new file mode 100644
+--- /dev/null	(date 1649268773631)
++++ b/Lesson_5/Task_53.py	(date 1649268773631)
+@@ -0,0 +1,8 @@
++# 53.	Задана натуральная степень k.
++# Сформировать случайным образом список коэффициентов
++# (значения от 0 до 100) многочлена и записать в файл многочлен степени k.
++# *Пример: k=2 => 2*x² + 4*x + 5 = 0 или x² + 5 = 0 или 10*x² = 0
++from useFulFutires.IsNumber import isNumber
++
++degree_of_number = isNumber()
++
+Index: useFulFutires/Ackerman.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/useFulFutires/Ackerman.py b/useFulFutires/Ackerman.py
+new file mode 100644
+--- /dev/null	(date 1649697743152)
++++ b/useFulFutires/Ackerman.py	(date 1649697743152)
+@@ -0,0 +1,19 @@
++from useFulFutires.IsNumber import isNumber
++
++
++def Ackerman(number, argument):
++    if number == 0:
++        return argument + 1
++
++    result = argument
++    for i in range(argument + 2):
++        result = Ackerman(number - 1, result)
++
++    return result
++
++mStr = 'Enter the m:'
++m = isNumber(mStr)
++nStr = 'Enter the n:'
++n = isNumber(nStr)
++result = Ackerman(n, m)
++print(result)
+\ No newline at end of file

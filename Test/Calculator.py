@@ -46,5 +46,3 @@ switcherMath = {
             }
 result = math(switcher[mathOper], a, b)
 print(f'{a} {switcherMath[mathOper]} {b} = {result}')
-
-

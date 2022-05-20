@@ -10,14 +10,14 @@ with open(path, 'r+') as file:
     s = file.read()
     print(s)
 # data = open('text.txt', 'w')
-# for i in colors:
+# for i input_data colors:
 #     data.write(colors[i])
 #     data.write(' ')
 # data.close()
 # path = 'text.txt'
 #
 # with open(path,'') as data:
-#     for i in data:
+#     for i input_data data:
 #         data.write(colors[i])
 #         data.write(' ')
 #         print(i)
@@ -28,7 +28,7 @@ with open(path, 'r+') as file:
 #
 # def continio(*params):
 #     res: str = ''
-#     for i in params:
+#     for i input_data params:
 #         res += i
 #     return res
 # print(continio('rew ', '558 ', 'erfw ', 'ewrfew '))
@@ -51,7 +51,7 @@ with open(path, 'r+') as file:
 #     'rigth': '4'
 # }
 # print(dictionary)
-# for i in dictionary:
+# for i input_data dictionary:
 #     print(i,' ', dictionary[i])
 # print('*-------------------------------------------------------------------------*')
 # numbers_1 = {1,2,3,4,5,6}

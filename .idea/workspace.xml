@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_5 - Task_5: Krestiki noliki&#10;RU:&#10;# Создайте программу для игры в &quot;Крестики-нолики&quot;.">
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Task_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_5/Task_6.txt" afterDir="false" />
+    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_6  : HomeWork_3.py - Counter string length&#10;RU:&#10;# Реализовать программу, получающую на вход строку, состоящую из слов,&#10;# разделенных пробелами и возвращающую длину каждого слова.&#10;# Пример: &quot;Солнце небо воздух земля&quot; --&gt; 6 4 6 5.">
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Calc/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Calc/input_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Calc/input_data/init_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Calc/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Calc/out/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Calc/out/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Calc/prog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Calc/prog/plus_modul.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/YandexTask_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Lection_3_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Lection_3_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/working_with_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/working_with_files.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +43,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="27QMDWNBfqOFkmLoziNUqqMcqL0" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,8 +64,8 @@
       <recent name="C:\GeekBrains\HomeWorkPython\Lesson_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Task_6">
-    <configuration name="Task_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.HomeWork_2">
+    <configuration name="HomeWork_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +73,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_2.py" />
+      <option name="SCRIPT_NAME" value="C:\GeekBrains\HomeWorkPython\Lesson_6\HomeWork_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeWork_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_6/HomeWork_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="controller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +115,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_7/Calc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_7/Calc/controller.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_7/Calc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_7/Calc/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="view" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,11 +157,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_7/Calc/out" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/Task_6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_7/Calc/out/view.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Task_6" />
-        <item itemvalue="Python.Task_5" />
-        <item itemvalue="Python.Task_4" />
-        <item itemvalue="Python.Task_3" />
-        <item itemvalue="Python.Task_2" />
+        <item itemvalue="Python.HomeWork_2" />
+        <item itemvalue="Python.HomeWork_1" />
+        <item itemvalue="Python.controller" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.view" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +371,42 @@
       <option name="project" value="LOCAL" />
       <updated>1652634187951</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add Lesson_5 - Task_6: compression and recovery of data&#10;RU:&#10;# Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных.&#10;# Входные и выходные данные хранятся в отдельных текстовых файлах.">
+      <created>1652636516843</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1652636516843</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add Lesson_6  : Exemples">
+      <created>1653041763554</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1653041763554</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add Lesson_6  : HomeWork_1.py - Delete text with 'абв'. with filter find&#10;RU:&#10;# Напишите программу, удаляющую из текста все слова, содержащие &quot;абв&quot;.">
+      <created>1653041859462</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1653041859462</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add Lesson_6  : HomeWork_2.py - Fuctors N&#10;RU:&#10;# Задайте натуральное число N. Напишите программу,&#10;# которая составит список простых множителей числа N.">
+      <created>1653041901318</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1653041901318</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add Lesson_6  : HomeWork_3.py - Counter string length&#10;RU:&#10;# Реализовать программу, получающую на вход строку, состоящую из слов,&#10;# разделенных пробелами и возвращающую длину каждого слова.&#10;# Пример: &quot;Солнце небо воздух земля&quot; --&gt; 6 4 6 5.">
+      <created>1653041960378</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1653041960378</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -373,11 +421,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Lesson_1 findMinMaxNumber &#10;RU: # Дано число из отрезка [10, 99]. Показать наибольшую цифру" />
-    <MESSAGE value="add Test Lection_3_Test.py&#10;RU: # в файле хранится числа, нужно выбрать четные из них и&#10;# и составить список пар (число: квадрат числа)&#10;# пример:&#10;# 1 2 3 5 8 15 23 38&#10;# получить:&#10;# [(2,4), (8m64), (38, 1444)]" />
-    <MESSAGE value="add Test ListComprehention" />
-    <MESSAGE value="add Lesson_4" />
-    <MESSAGE value="add Lesson_4 : prime factors of N.&#10;Given a natural number N. Write a program that will list the prime factors of N." />
     <MESSAGE value="add Lesson_4 : non Repeating List Of Numbers.&#10;Задайте последовательность чисел. Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности." />
     <MESSAGE value="add Lesson_4 : Find the LCM of two numbers.&#10;Найти НОК двух чисел Через while" />
     <MESSAGE value="add Lesson_4 : Random Coef Polynom&#10;Задана натуральная степень k. Сформировать случайным образом список коэффициентов (значения от 1 до 100, можно создать свой генератор случайных чисел или использовать готовый) многочлена и записать в файл многочлен степени k." />
@@ -398,7 +441,12 @@
     <MESSAGE value="add Lesson_5 - Task_3: delete words with text 'абв' &#10;RU:&#10;# 3. Напишите программу, удаляющую из текста все слова, содержащие &quot;абв&quot;." />
     <MESSAGE value="add Lesson_5 - Task_4: candyBot and  cleverCandyBot&#10;RU:&#10;# Создайте программу для игры с конфетами человек против человека.&#10;# Условие задачи: На столе лежит 2021 конфета. Играют два игрока делая ход друг после друга.&#10;# Первый ход определяется жеребьёвкой. За один ход можно забрать не более чем 28 конфет.&#10;# Все конфеты оппонента достаются сделавшему последний ход. Сколько конфет нужно взять первому игроку,&#10;# чтобы забрать все конфеты у своего конкурента?&#10;&#10;# a) Добавьте игру против бота&#10;# b) Подумайте как наделить бота &quot;интеллектом&quot;" />
     <MESSAGE value="add Lesson_5 - Task_5: Krestiki noliki&#10;RU:&#10;# Создайте программу для игры в &quot;Крестики-нолики&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="add Lesson_5 - Task_5: Krestiki noliki&#10;RU:&#10;# Создайте программу для игры в &quot;Крестики-нолики&quot;." />
+    <MESSAGE value="add Lesson_5 - Task_6: compression and recovery of data&#10;RU:&#10;# Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных.&#10;# Входные и выходные данные хранятся в отдельных текстовых файлах." />
+    <MESSAGE value="add Lesson_6  : Exemples" />
+    <MESSAGE value="add Lesson_6  : HomeWork_1.py - Delete text with 'абв'. with filter find&#10;RU:&#10;# Напишите программу, удаляющую из текста все слова, содержащие &quot;абв&quot;." />
+    <MESSAGE value="add Lesson_6  : HomeWork_2.py - Fuctors N&#10;RU:&#10;# Задайте натуральное число N. Напишите программу,&#10;# которая составит список простых множителей числа N." />
+    <MESSAGE value="add Lesson_6  : HomeWork_3.py - Counter string length&#10;RU:&#10;# Реализовать программу, получающую на вход строку, состоящую из слов,&#10;# разделенных пробелами и возвращающую длину каждого слова.&#10;# Пример: &quot;Солнце небо воздух земля&quot; --&gt; 6 4 6 5." />
+    <option name="LAST_COMMIT_MESSAGE" value="add Lesson_6  : HomeWork_3.py - Counter string length&#10;RU:&#10;# Реализовать программу, получающую на вход строку, состоящую из слов,&#10;# разделенных пробелами и возвращающую длину каждого слова.&#10;# Пример: &quot;Солнце небо воздух земля&quot; --&gt; 6 4 6 5." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -440,7 +488,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Lesson_5/Task_4.py</url>
-          <line>155</line>
+          <line>154</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -453,6 +501,21 @@
           <line>34</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_6/Calculator.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_5/Task_4.py</url>
+          <line>255</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_7/Calc/main.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -462,12 +525,5 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="data" />
-        <watch expression="result" />
-        <watch expression="sumMNumbers" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
