@@ -61,7 +61,6 @@ def candyMultiplayer(candyCount):
                     elif userAnswer == 0:
                         f = False
                         break
-
             if userMove == 0:
                 userMove = 1
             else:
