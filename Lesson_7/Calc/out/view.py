@@ -1,3 +1,2 @@
-
-def printResult(A, B, sum):
-    print(f'{A} + {B} == {sum}')
+def printResult(userInput, result):
+    print(f'{userInput} == {result}')

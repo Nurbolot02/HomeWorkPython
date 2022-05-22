@@ -1,1 +1,1 @@
-from .init_data import userInputA, userInputB
+from .init_data import userInput
