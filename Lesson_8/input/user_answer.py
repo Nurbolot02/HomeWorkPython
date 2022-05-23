@@ -3,7 +3,7 @@ from useFulFutires.IsNumber import isNumber
 user_answer = 0
 
 
-def read_user_answer(user_answer_text = 'Выберите операцию: ', minNumber = 0, maxNumber = 3):
+def read_user_answer(user_answer_text = 'Выберите операцию: ', minNumber = 0, maxNumber = 4):
     global user_answer
     while True:
         user_answer = isNumber(user_answer_text)

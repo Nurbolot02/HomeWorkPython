@@ -1,3 +1,4 @@
+import pickle
 import random
 import string
 
@@ -6,11 +7,30 @@ from useFulFutires.IsNumber import isNumber
 
 employee_list = []
 
+def delete_employee():
+    global employee_list
+    NumberText = '\n1 - Удалить еще сотрудника \n0 - Выйти в главное меню \nВыберите операцию: '
+    read_user_answer_text = 'Выберите кого хотите удалить по цифре: '
+    show_employee_list(False)
+    f = True
+    while f:
+        user_choose = read_user_answer(read_user_answer_text,minNumber=1, maxNumber=len(employee_list)) - 1
+        employee_list.pop(user_choose)
+        save_employee()
+        show_employee_list(False)
+        f = end_program(NumberText)
+    save_employee()
+    print()
+
+
 def save_employee():
+    global employee_list
     path = 'employees.txt'
-    with open(path, 'w') as data:
-        for i in employee_list:
-            data.write(f'{i} \n')
+    try:
+        with open(path, 'wb') as data:
+            pickle.dump(employee_list, data)
+    except:
+        print('Ошибка при записи сотрудников в файл')
 
 def add_employee():
     global employee_list
@@ -22,19 +42,46 @@ def add_employee():
     save_employee()
     print()
 
+def load_employees(f = True):
+    global employee_list
+    path = 'employees.txt'
+    try:
+        with open(path, 'rb') as data:
+            employee_list = pickle.load(data)
+    except:
+        if not f:
+            print()
+        else:
+            print('Нету сотрудников!')
+            return False
+    return True
 
-def show_employee_list():
+def show_employee_list(flag = True):
     global employee_list
     NumberText = '\n1 - Обновить список сотрудников \n0 - Выйти в главное меню \nВыберите операцию: '
     f = True
-    print('\nСписок сотрудников')
-    while f:
-        for i in employee_list:
-            for key, value in i.items():
-                print(f'{key}: {value}')
-            print(f'{"-"* 50}')
-        f = end_program(NumberText)
+    flag2 = load_employees()
+    if flag2:
+        print('\nСписок сотрудников')
+    if flag == False:
+        read_data()
+    else:
+        while f:
+            read_data()
+            f = end_program(NumberText)
+
+
+def read_data():
+    global employee_list
+    counter = 1
     print()
+    for i in employee_list:
+        print(f'{counter} - ', end='')
+        for key, value in i.items():
+            print(f'{key}: {value}', end=', ')
+        print()
+        counter +=1
+    print(f'Обшее количество сотрудников {len(employee_list)}')
 
 def generate_random_employee():
     global contact_list
