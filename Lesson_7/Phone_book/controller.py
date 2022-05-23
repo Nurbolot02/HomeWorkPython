@@ -1,5 +1,5 @@
 from Lesson_7.Phone_book.out import menu
-from Lesson_7.Phone_book.prog.Contact import add_contact, show_contacts, del_contact, find_contact
+from Lesson_7.Phone_book.prog.Contact import add_contact, show_contacts, del_contact, find_contact, generate_random_contact
 from Lesson_7.Phone_book.input import user_answer
 
 
@@ -18,3 +18,5 @@ def start():
             show_contacts()
         elif user_select == 4:
             find_contact()
+        elif user_select == 5:
+            generate_random_contact()
