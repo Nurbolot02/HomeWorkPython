@@ -3,14 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_7  : Calc &#10;RU:&#10;# Калькулятор который умеет сложить числа &#10;# и с проработанной архитектурой">
       <change afterPath="$PROJECT_DIR$/Lesson_7/Phone_book/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Phone_book/input/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Phone_book/input/user_answer.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Lesson_7/Phone_book/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Phone_book/out/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Phone_book/out/menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Phone_book/prog/Contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Phone_book/prog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Phone_book/prog/user_select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/Phone_book/prog/write_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_7/Calc/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_7/Calc/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_7/Calc/input_data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_7/Calc/input_data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_7/Calc/input_data/init_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_7/Calc/input_data/init_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_7/Calc/out/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_7/Calc/out/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_7/Calc/prog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_7/Calc/prog/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_7/Calc/prog/plus_modul.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_7/Calc/prog/mathOperation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +52,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GeekBrains\HomeWorkPython\Lesson_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="controller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Contact" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_7/Calc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_7/Phone_book/prog" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_7/Calc/controller.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_7/Phone_book/prog/Contact.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="init_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="controller (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +115,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_7/Calc/input_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_7/Phone_book" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_7/Calc/input_data/init_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_7/Phone_book/controller.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeWorkPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_7/Phone_book" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_7/Phone_book/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,34 +170,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mathOperation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HomeWorkPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_7/Calc/prog" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_7/Calc/prog/mathOperation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.controller (1)" />
+        <item itemvalue="Python.Contact" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.Calculator" />
-        <item itemvalue="Python.mathOperation" />
-        <item itemvalue="Python.controller" />
-        <item itemvalue="Python.init_data" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653042067446</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add Lesson_7  : Calc &#10;RU:&#10;# Калькулятор который умеет сложить числа &#10;# и с проработанной архитектурой">
+      <created>1653222736186</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1653222736186</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,6 +519,11 @@
           <url>file://$PROJECT_DIR$/Lesson_5/Task_4.py</url>
           <line>255</line>
           <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_7/Phone_book/prog/Contact.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
