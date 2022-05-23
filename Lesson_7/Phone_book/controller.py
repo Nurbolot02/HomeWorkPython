@@ -1,10 +1,11 @@
 from Lesson_7.Phone_book.out import menu
-from Lesson_7.Phone_book.prog.Contact import add_contact, show_contacts, del_contact, find_contact, generate_random_contact
+from Lesson_7.Phone_book.prog.Contact import add_contact, show_contacts, del_contact, find_contact, generate_random_contact, load_contacts
 from Lesson_7.Phone_book.input import user_answer
 
 
 def start():
     while True:
+        load_contacts(False)
         menu.get_menu()
         user_select = user_answer.read_user_answer()
         if user_select == 0:
