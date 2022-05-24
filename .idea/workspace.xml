@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="update Lesson_8  : Employees&#10;add delete_employee and update code&#10;RU:&#10;# Обновлен код &#10;# добавлено удаление сотрудников">
+    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_7  : Phone_book &#10;RU:&#10;# Телефонная книга&#10;# Реализовать приложение &quot;Телефонная книга&quot;. Необходимый функционал:&#10;# - добавить контакт (Имя, телефон)&#10;# - удалить контакт&#10;# - посмотреть список контактов&#10;# - найти номер по имени (*не обязательно)&#10;# - выйти из приложения&#10;#&#10;# Первое усложнение: добавить хранение данных через файл&#10;# Второе усложнение: найстройка формата ххранения&#10;# МЕГАКРУТОЙ ВАРИАНТ: добавить реальный интерфейс">
+      <change afterPath="$PROJECT_DIR$/Lesson_8/prog/add_employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_8/prog/delete_employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_8/prog/show_employee_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_7/Phone_book/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_7/Phone_book/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_7/Phone_book/prog/Contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_7/Phone_book/prog/Contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_8/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_8/controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson_8/employees.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_8/employees.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_8/prog/employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_8/prog/employee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_8/input/user_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_8/input/user_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_8/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_8/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_8/out/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_8/out/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_8/prog/employee.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="jhkhkjhjhk" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -67,7 +77,7 @@
       <recent name="C:\GeekBrains\HomeWorkPython\Lesson_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="Grocery_store_databases" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,10 +185,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.Grocery_store_databases" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.Grocery_store_databases" />
         <item itemvalue="Python.controller" />
       </list>
     </recent_temporary>
@@ -466,7 +476,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -569,31 +591,6 @@
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lesson_8/prog/employee.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="191" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lesson_8/prog/employee.py</url>
-          <line>88</line>
-          <option name="timeStamp" value="199" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lesson_8/prog/employee.py</url>
-          <line>94</line>
-          <option name="timeStamp" value="200" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lesson_8/prog/employee.py</url>
-          <line>62</line>
-          <option name="timeStamp" value="202" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lesson_8/prog/employee.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="205" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Lesson_7/Phone_book/prog/Contact.py</url>
           <line>122</line>
           <option name="timeStamp" value="206" />
@@ -602,6 +599,26 @@
           <url>file://$PROJECT_DIR$/Lesson_7/Phone_book/prog/Contact.py</url>
           <line>100</line>
           <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_8/prog/find_employee.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_8/prog/generate_random_employee.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_8/prog/find_employee.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_8/prog/delete_employee.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="240" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
