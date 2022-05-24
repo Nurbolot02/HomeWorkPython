@@ -1,0 +1,198 @@
+Index: Lesson_8/input/init_data.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_8/input/init_data.py b/Lesson_8/input/init_data.py
+new file mode 100644
+--- /dev/null	
++++ b/Lesson_8/input/init_data.py	
+@@ -0,0 +1,9 @@
++from Lesson_8.prog.employee import load_employees
++
++employee_list = []
++
++
++def init():
++    global employee_list
++    load_employees(False)
++    return employee_list
+Index: Lesson_8/prog/end_program.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_8/prog/end_program.py b/Lesson_8/prog/end_program.py
+new file mode 100644
+--- /dev/null	
++++ b/Lesson_8/prog/end_program.py	
+@@ -0,0 +1,10 @@
++from useFulFutires.IsNumber import isNumber
++
++
++def end_program(NumberText):
++    while True:
++        userChoose = isNumber(NumberText)
++        if userChoose == 0:
++            return False
++        elif userChoose == 1:
++            return True
+Index: Lesson_8/prog/generate_random_employee.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_8/prog/generate_random_employee.py b/Lesson_8/prog/generate_random_employee.py
+new file mode 100644
+--- /dev/null	
++++ b/Lesson_8/prog/generate_random_employee.py	
+@@ -0,0 +1,17 @@
++from Lesson_8.input.user_answer import read_user_answer
++from Lesson_8.prog.generate_random_phone_number import generate_random_phone_number
++from Lesson_8.prog.generate_random_string import generate_random_string
++from Lesson_8.prog.end_program import end_program
++from Lesson_8.prog.save_employee import save_employee
++
++def generate_random_employee(employee_list):
++    f = True
++    NumberText = '\n1 - Добавить еще рандомного сотрудника \n0 - Выйти в главное меню \nВыберите операцию: '
++    while f:
++        read_user_answer_text = 'Сколько рандомных сотрудников вы хотите добавить?: '
++        count = read_user_answer(read_user_answer_text, maxNumber=10000)
++        for i in range(count):
++            employee_list.append({'Name': generate_random_string(8), 'SurName': generate_random_string(8), 'Position': generate_random_string(8), 'Salary': generate_random_phone_number()})
++        f = end_program(NumberText)
++    save_employee()
++
+Index: Lesson_8/prog/generate_random_string.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_8/prog/generate_random_string.py b/Lesson_8/prog/generate_random_string.py
+new file mode 100644
+--- /dev/null	
++++ b/Lesson_8/prog/generate_random_string.py	
+@@ -0,0 +1,8 @@
++import random
++import string
++
++
++def generate_random_string(length = 8):
++    letters = string.ascii_lowercase
++    rand_string = ''.join(random.choice(letters) for i in range(length))
++    return rand_string
+\ No newline at end of file
+Index: Lesson_8/prog/generate_random_phone_number.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_8/prog/generate_random_phone_number.py b/Lesson_8/prog/generate_random_phone_number.py
+new file mode 100644
+--- /dev/null	
++++ b/Lesson_8/prog/generate_random_phone_number.py	
+@@ -0,0 +1,9 @@
++import random
++
++
++def generate_random_phone_number(length= 8, minNumber = 0, maxNumber = 9):
++    result = '+'
++    for i in range(length):
++        result += str(random.randint(minNumber, maxNumber))
++    return result
++
+Index: Lesson_8/prog/read_data.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_8/prog/read_data.py b/Lesson_8/prog/read_data.py
+new file mode 100644
+--- /dev/null	
++++ b/Lesson_8/prog/read_data.py	
+@@ -0,0 +1,11 @@
++def read_data():
++    global employee_list
++    counter = 1
++    print()
++    for i in employee_list:
++        print(f'{counter} - ', end='')
++        for key, value in i.items():
++            print(f'{key}: {value}', end=', ')
++        print()
++        counter +=1
++    print(f'Обшее количество сотрудников {len(employee_list)}')
+\ No newline at end of file
+Index: Lesson_8/prog/save_employee.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_8/prog/save_employee.py b/Lesson_8/prog/save_employee.py
+new file mode 100644
+--- /dev/null	
++++ b/Lesson_8/prog/save_employee.py	
+@@ -0,0 +1,10 @@
++import pickle
++
++def save_employee():
++    global employee_list
++    path = 'employees.txt'
++    try:
++        with open(path, 'wb') as data:
++            pickle.dump(employee_list, data)
++    except:
++        print('Ошибка при записи сотрудников в файл')
+\ No newline at end of file
+Index: Lesson_8/prog/find_employee.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_8/prog/find_employee.py b/Lesson_8/prog/find_employee.py
+new file mode 100644
+--- /dev/null	
++++ b/Lesson_8/prog/find_employee.py	
+@@ -0,0 +1,21 @@
++from Lesson_8.prog.end_program import end_program
++def find_contact():
++    global contact_list
++    NumberText = '\n1 - Найти еще контакт \n0 - Выйти в главное меню \nВыберите операцию: '
++    f = True
++    while f:
++        print('\nНайти номер по имени')
++        user_input = input('Имя: ')
++        user_find_list = []
++        for i in contact_list:
++            for key, value in i.items():
++                if key == 'Name' and value == user_input:
++                    user_find_list.append(i)
++        if len(user_find_list) <=0:
++            print(f'Пользователей с именем {user_input} не найдено')
++        else:
++            for i in user_find_list:
++                print(f'Пользователи с именем {user_input}')
++                for key, value in i.items():
++                    print(f'{key}: {value}', end=', ')
++        f = end_program(NumberText)
+Index: Lesson_8/input/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_8/input/__init__.py b/Lesson_8/input/__init__.py
+--- a/Lesson_8/input/__init__.py	
++++ b/Lesson_8/input/__init__.py	
+@@ -1,0 +1,1 @@
++from .init_data import employee_list
+Index: Lesson_8/prog/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_8/prog/__init__.py b/Lesson_8/prog/__init__.py
+--- a/Lesson_8/prog/__init__.py	
++++ b/Lesson_8/prog/__init__.py	
+@@ -1,0 +1,1 @@
++
