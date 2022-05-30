@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="update Lesson_8  : Employees&#10;RU:&#10;# Обновлен код &#10;# добавлено удаление контактов">
-      <change afterPath="$PROJECT_DIR$/Lesson_9/Lection_Task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_9/Lection_bot/bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_9/Lection_bot/bot_commands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_9/Lection_bot/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_9/Lection_bot/log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_9/Lection_bot/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/useFulFutires/MatN.py" afterDir="false" />
+    <list default="true" id="c9dee4d1-1e1d-4f76-b07d-16ea3c997747" name="Changes" comment="add Lesson_9  : Math_Bot&#10;RU:&#10;# Бот для решения математических задач">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_8/employees.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_8/employees.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_8/prog/add_employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_8/prog/add_employee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_9/Lection_bot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_9/Lection_bot/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_9/Lection_bot/bot_commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_9/Lection_bot/bot_commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_9/Lection_bot/db.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_9/Lection_bot/db.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +50,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/GeekBrains/HomeWorkPython/Lesson_9/ExchangeRate",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/GeekBrains/HomeWorkPython&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
@@ -484,7 +477,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653377723825</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update Lesson_8  : Employees&#10;RU:&#10;# Обновлен код &#10;# добавлено удаление контактов">
+      <created>1653730210717</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1653730210717</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add Lesson_9  : Math_Bot&#10;RU:&#10;# Бот для решения математических задач">
+      <created>1653730296128</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1653730296128</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cutting" />
     <MESSAGE value="add Test - Lection_3" />
     <MESSAGE value="add Lesson_4  findNumberPI&#10;# Вычислить число Пи c заданной точностью d" />
     <MESSAGE value="update Lesson_4  randomCoefPolynom&#10;RU:&#10;Задана натуральная степень k.&#10;# Сформировать случайным образом список коэффициентов (значения от 0 до 100) многочлена&#10;# и записать в файл многочлен степени k.&#10;# *Пример: k=2 =&gt; 2*x² + 4*x + 5 = 0 или x² + 5 = 0 или 10*x² = 0" />
@@ -536,7 +542,8 @@
     <MESSAGE value="update Lesson_8  : Employees&#10;add delete_employee and update code&#10;RU:&#10;# Обновлен код &#10;# добавлено удаление сотрудников" />
     <MESSAGE value="update Lesson_7  : Phone_Book&#10;RU:&#10;# Обновлен код &#10;# добавлено удаление контактов" />
     <MESSAGE value="update Lesson_8  : Employees&#10;RU:&#10;# Обновлен код &#10;# добавлено удаление контактов" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Lesson_8  : Employees&#10;RU:&#10;# Обновлен код &#10;# добавлено удаление контактов" />
+    <MESSAGE value="add Lesson_9  : Math_Bot&#10;RU:&#10;# Бот для решения математических задач" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Lesson_9  : Math_Bot&#10;RU:&#10;# Бот для решения математических задач" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -643,8 +650,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Lesson_9/Lection_bot/bot_commands.py</url>
-          <line>36</line>
+          <line>103</line>
           <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_9/Lection_bot/bot_commands.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_9/Lection_bot/bot_commands.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="249" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
